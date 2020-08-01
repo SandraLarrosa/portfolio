@@ -1,12 +1,17 @@
 import React from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
 import '../stylesheets/App.scss';
-
-const hi = '<h1>Hola Mundo</h1>';
+import Home from './Home';
+import Nav from './Nav';
+import Aside from './Aside';
+import SobreMi from './SobreMi';
 
 function App() {
   return (
     <div className='App'>
-      <h1>{hi}</h1>
+      <Nav />
+      <Home />
+      <Aside />
     </div>
   );
 }
