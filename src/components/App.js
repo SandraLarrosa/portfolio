@@ -10,7 +10,10 @@ function App() {
   return (
     <div className='App'>
       <Nav />
-      <Home />
+      <main className="main">
+        {/* <Home /> */}
+        <SobreMi />
+      </main>
       <Aside />
     </div>
   );

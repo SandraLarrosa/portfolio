@@ -1,3 +1,41 @@
-h3{
-    color: white;
+.sobreMi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  margin: 40px;
+  max-width: 1200px;
+
+  &__title {
+    width: 1200px;
+    display: flex;
+    align-items: flex-start;
+    align-self: center;
+
+    &__title {
+      font-size: 40px;
+      font-weight: normal;
+    }
+
+    &__img {
+      width: 260px;
+      height: 260px;
+      margin-left: 40%;
+
+      & img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.sobreMi__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+}
+
+.strong {
+  font-weight: bold;
 }
