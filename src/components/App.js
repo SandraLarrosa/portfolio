@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import '../stylesheets/App.scss';
 import Home from './Home';
 import Nav from './Nav';
@@ -11,8 +11,10 @@ function App() {
     <div className='App'>
       <Nav />
       <main className='main'>
-        <Home />
-        {/* <SobreMi /> */}
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/about" component = {SobreMi}/>
+        </Switch>
       </main>
       <Aside />
     </div>
