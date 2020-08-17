@@ -30,19 +30,14 @@ const Home = (props) => {
         <span className='key__tag'>{`<`}</span>
         <span className='tag'>{`h2`}</span>
         <span className='key__tag'>{`>`}</span>
-        <span className='text'>{`Soy Alexandra López Larrosa`}</span>
-        <span className='key__tag'>{`</`}</span>
-        <span className='tag'>{`h2`}</span>
-        <span className='key__tag'>{`>`}</span>
+        <span className='text'>{`Soy Alexandra López,`}</span>
+
       </span>
       <span className='span__content'>
-        <span className='opacity'>{`____`}</span>
-        <span className='key__tag'>{`<`}</span>
-        <span className='tag'>{`p`}</span>
-        <span className='key__tag'>{`>`}</span>
+        <span className='opacity'>{`________`}</span>
         <span className='text'>{`Desarrolladora Front End`}</span>
-        <span className='key__tag'>{`</`}</span>
-        <span className='tag'>{`p`}</span>
+                <span className='key__tag'>{`</`}</span>
+        <span className='tag'>{`h2`}</span>
         <span className='key__tag'>{`>`}</span>
       </span>
 

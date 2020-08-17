@@ -1,12 +1,29 @@
-.home{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 14px;
+  margin: auto;
+
+  @media all and(min-width: 768px) {
+    font-size: 18px;
+    margin: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  @media all and(min-width: 1200px) {
     font-size: 36px;
     margin: 40px;
+  }
 }
 
-.span__content{
+.span__content {
+  padding: 5px;
+
+  @media all and(min-width: 1200px) {
     padding: 10px;
+  }
+
 }

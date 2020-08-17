@@ -3,8 +3,17 @@ header{
 }
 
 .App {
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+
+
+
+  @media all and(min-width: 768px){
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .main{

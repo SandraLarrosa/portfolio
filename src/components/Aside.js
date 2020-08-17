@@ -9,7 +9,7 @@ const Aside = (props) => {
   return (
     <div>
       <nav className='aside__nav'>
-        <ul>
+        <ul className='aside__nav--list'>
           <li>
             <a href='mailto: sandra.larrosa88@gmail.com' target='_blank'>
               <img className='iconRRSS' src={mail} alt='icon__email'></img>
