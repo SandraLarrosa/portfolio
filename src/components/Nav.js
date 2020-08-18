@@ -9,7 +9,7 @@ import '../stylesheets/nav.scss';
 
 const Nav = (props) => {
   return (
-    <div>
+    <>
       <nav className='nav__content'>
         <ul className='nav__content__list--Mobile'>
           <div className='icon__folder'>
@@ -67,7 +67,7 @@ const Nav = (props) => {
           </span>
         </ul>
       </nav>
-    </div>
+    </>
   );
 };
 

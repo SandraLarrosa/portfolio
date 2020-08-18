@@ -1,4 +1,5 @@
 .home {
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,19 +8,24 @@
   margin: auto;
 
   @media all and(min-width: 768px) {
+    width: 400px;
     font-size: 18px;
     margin: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
   }
 
   @media all and(min-width: 1200px) {
+    width: 800px;
     font-size: 36px;
-    margin: 40px;
+    margin: 60px;
   }
 }
 
+.content__text{
+  display: flex;
+}
+
 .span__content {
+  align-self: flex-start;
   padding: 5px;
 
   @media all and(min-width: 1200px) {
@@ -27,3 +33,23 @@
   }
 
 }
+.text{
+  align-self: center;
+}
+
+/* .text{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: start;
+
+  @media all and(min-width: 768px) {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  @media all and(min-width: 1200px) {
+    margin-left: 45px;
+    margin-right: 40px;
+  }
+} */
+

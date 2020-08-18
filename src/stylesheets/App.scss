@@ -19,26 +19,9 @@ header{
 .main{
   display: flex;
 }
-/* h1{
-  position: relative; 
-  float: left;
-}
 
-.write {
-  position:absolute;
-  right:0;
-  width:0;
-  background-color: #272822;
-  border-left: 1px solid #e5e5e5;
-  animation: escribir 5s steps(60) alternate;
-}
 
-@keyframes escribir {
-  from { width: 100% }
-  to { width:0 }
-} */
-
-.key__tag, .text{
+.key__tag, .text, .cursor{
   color: #e5e5e5;
 }
 

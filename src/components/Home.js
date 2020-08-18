@@ -1,58 +1,65 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import { Typewriter } from 'react-typewriting-effect';
+import 'react-typewriting-effect/dist/index.css';
 import '../stylesheets/home.scss';
+import ConstructorTag from './ConstructorTag';
+import ConstructorCloseTag from './ConstructorCloseTag';
 
-const Home = (props) => {
+const Home = () => {
+  const helloWorld = '¡Hola Mundo!';
+  const myName = ' Soy Alexandra López,  Desarrolladora Front End ';
+/*   const [myName, setMyName] = useState('');
+
+  useEffect(() => {
+    setTimeout(() => {
+      setMyName('Soy Alexandra López, Desarrolladora Front End')
+        console.log(myName);
+    }, 1000)
+  }, [myName]);  */
+
+/*   let myName = '';
+
+  const printName = () => {
+    setTimeout(() => {
+      myName = 'Soy Alexandra López, Desarrolladora Front End';
+      console.log('Voy a Pintar', myName);
+    }, 3000);
+  }; */
   return (
     <section className='home'>
-      <span className='span__content'>
-        <span className='key__tag'>{`<`}</span>
-        <span className='tag'>{`html`}</span>
-        <span className='key__tag'>{`>`}</span>
+      <ConstructorTag tag='html' />
+      <ConstructorTag tag='body' indent='__' />
+      <span className='content__text'>
+        <ConstructorTag tag='h1' indent='____'>
+          <span className='text'>
+            <Typewriter
+              string={helloWorld}
+              delay={100}
+              stopBlinkinOnComplete
+              cursor='|'
+              cursorClassName='cursor'
+              className='text'
+            />
+          </span>
+        </ConstructorTag>
+        <ConstructorCloseTag tag='h1' />
       </span>
-      <span className='span__content'>
-        <span className='opacity'>{`__`}</span>
-        <span className='key__tag'>{`<`}</span>
-        <span className='tag'>{`body`}</span>
-        <span className='key__tag'>{`>`}</span>
+      <span className='content__text'>
+        <ConstructorTag tag='h2' indent='____' />
+        <span className='text'>
+          <Typewriter
+            string={myName}
+            delay={100}
+            stopBlinkinOnComplete
+            cursor='|'
+            cursorClassName='cursor'
+            className='text'
+          />
+        </span>
       </span>
-      <span className='span__content'>
-        <span className='opacity'>{`____`}</span>
-        <span className='key__tag'>{`<`}</span>
-        <span className='tag'>{`h1`}</span>
-        <span className='key__tag'>{`>`}</span>
-        <span className='text'>{`¡Hola Mundo!`}</span>
-        <span className='key__tag'>{`</`}</span>
-        <span className='tag'>{`h1`}</span>
-        <span className='key__tag'>{`>`}</span>
-      </span>
-      <span className='span__content'>
-        <span className='opacity'>{`____`}</span>
-        <span className='key__tag'>{`<`}</span>
-        <span className='tag'>{`h2`}</span>
-        <span className='key__tag'>{`>`}</span>
-        <span className='text'>{`Soy Alexandra López,`}</span>
-
-      </span>
-      <span className='span__content'>
-        <span className='opacity'>{`________`}</span>
-        <span className='text'>{`Desarrolladora Front End`}</span>
-                <span className='key__tag'>{`</`}</span>
-        <span className='tag'>{`h2`}</span>
-        <span className='key__tag'>{`>`}</span>
-      </span>
-
-      <span className='span__content'>
-        <span className='opacity'>{`__`}</span>
-        <span className='key__tag'>{`</`}</span>
-        <span className='tag'>{`body`}</span>
-        <span className='key__tag'>{`>`}</span>
-      </span>
-      <span className='span__content'>
-        <span className='key__tag'>{`</`}</span>
-        <span className='tag'>{`html`}</span>
-        <span className='key__tag'>{`>`}</span>
-      </span>
-      <span className='write'>&#160;</span>
+      <ConstructorCloseTag indent='____' tag='h2' />
+      <ConstructorCloseTag indent='__' tag='body' />
+      <ConstructorCloseTag tag='html' />
     </section>
   );
 };

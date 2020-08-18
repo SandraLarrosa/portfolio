@@ -7,7 +7,7 @@ import '../stylesheets/aside.scss';
 
 const Aside = (props) => {
   return (
-    <div>
+    <>
       <nav className='aside__nav'>
         <ul className='aside__nav--list'>
           <li>
@@ -39,7 +39,7 @@ const Aside = (props) => {
           </li>
         </ul>
       </nav>
-    </div>
+    </>
   );
 };
 
