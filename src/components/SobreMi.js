@@ -28,28 +28,27 @@ const SobreMi = () => {
         </div>
       </div>
       <div className='sobreMi__content'>
-        <span className='span__content'>
-          <span className='key__tag'>{`<`}</span>
-          <span className='tag'>{`h3`}</span>
-          <span className='key__tag'>{`>`}</span>
-          <span className='text strong'>{`MI HISTORIA: `}</span>
-          <span className='key__tag'>{`</`}</span>
-          <span className='tag'>{`h3`}</span>
-          <span className='key__tag'>{`>`}</span>
+        <span className='span__content strong'>
+          <ConstructorTag tag='h3' />
+          Mi Historia:
+          <ConstructorCloseTag tag='h3' />
         </span>
         <span className='span__content'>
-          <span className='key__tag'>{`<`}</span>
-          <span className='tag'>{`p`}</span>
-          <span className='key__tag'>{`>`}</span>
-          <span className='text'>{`Durante más de 10 años he trabajado como Técnico de RRHH en grandes empresas, pero nunca llegué a sentir pasión por lo que hacía debido a monotonía y la falta de retos diarios.`}</span>
-          <p className='text'>{`Debido a un accidente de moto, comprendí que la vida no está para desperdiciarla en un trabajo en el cual no me permitía crecer ni personal ni profesionalmente.`}</p>
-          <p className='text'>{`Durante mi recuperación descubrí el mundo de la programación. Después de varios cursos online de Front y viendo la infinidad de posibilidades que me ofrecía el sector, decidí reinventarme en Adalab. `}</p>
-          <span className='key__tag'>{`</`}</span>
-          <span className='tag'>{`p`}</span>
-          <span className='key__tag'>{`>`}</span>
+          <ConstructorTag tag='p' />
+          Durante más de 10 años he trabajado como Técnico de RRHH en grandes
+          empresas, pero nunca llegué a sentir pasión por lo que hacía debido a
+          monotonía y la falta de retos diarios.
+          <br></br>
+          Debido a un accidente de moto, comprendí que la vida no está para
+          desperdiciarla en un trabajo en el cual no me permitía crecer ni
+          personal ni profesionalmente.
+          <br></br>
+          Durante mi recuperación descubrí el mundo de la programación. Después
+          de varios cursos online de Front y viendo la infinidad de
+          posibilidades que me ofrecía el sector, decidí reinventarme en Adalab.
+          <ConstructorCloseTag tag='p' />
         </span>
       </div>
-      <span className='write'>&#160;</span>
     </section>
   );
 };

@@ -8,7 +8,7 @@ import SobreMi from '../images/person_female.png';
 import '../stylesheets/nav.scss';
 import ConstructorTag from './ConstructorTag';
 
-const Nav = (props) => {
+const Nav = () => {
   return (
     <>
       <nav className='nav__content'>
@@ -56,7 +56,7 @@ const Nav = (props) => {
             </li>
             <li>
               <Link to='/about'>
-                <ConstructorTag tag='Sobre-mi' />
+                <ConstructorTag tag='Sobre-mí' />
               </Link>
             </li>
           </span>
