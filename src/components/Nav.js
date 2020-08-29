@@ -50,7 +50,7 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link to='/'>
+              <Link to='/skills'>
                 <ConstructorTag tag='Skills' />
               </Link>
             </li>

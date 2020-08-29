@@ -1,0 +1,15 @@
+.title {
+  width: 300px;
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 20px;
+
+  @media all and (min-width: 768px) {
+    width: 400px;
+    font-size: 26px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 400px;
+    font-size: 30px;
+  }
+}
