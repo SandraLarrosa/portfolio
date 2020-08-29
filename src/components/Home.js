@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { Typewriter } from 'react-typewriting-effect';
 import 'react-typewriting-effect/dist/index.css';
 import '../stylesheets/home.scss';
@@ -8,22 +8,31 @@ import ConstructorCloseTag from './ConstructorCloseTag';
 const Home = () => {
   const helloWorld = '¡Hola Mundo!';
   const myName = ' Soy Alexandra López,  Desarrolladora Front End ';
-/*   const [myName, setMyName] = useState('');
+  /*   const [myName, setMyName] = useState(''); */
 
-  useEffect(() => {
+  /*   useEffect(() => {
     setTimeout(() => {
       setMyName('Soy Alexandra López, Desarrolladora Front End')
-        console.log(myName);
-    }, 1000)
-  }, [myName]);  */
+        console.log('el valor de my name es:', myName);
+    }, 5000)
+  }, [myName]); */
 
-/*   let myName = '';
+  /* let myName = ''; */
 
-  const printName = () => {
+  /*   const printName = () => {
     setTimeout(() => {
-      myName = 'Soy Alexandra López, Desarrolladora Front End';
-      console.log('Voy a Pintar', myName);
-    }, 3000);
+      console.log('hola');
+      return (
+        <Typewriter
+          string={myName}
+          delay={100}
+          stopBlinkinOnComplete
+          cursor='|'
+          cursorClassName='cursor'
+          className='text'
+        />
+      );
+    }, 3000); 
   }; */
   return (
     <section className='home'>
@@ -57,7 +66,7 @@ const Home = () => {
           />
         </span>
       </span>
-      <ConstructorCloseTag indent='____' tag='h2' />
+      <ConstructorCloseTag indent='____' tag='h2' /> 
       <ConstructorCloseTag indent='__' tag='body' />
       <ConstructorCloseTag tag='html' />
     </section>

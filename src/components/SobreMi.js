@@ -42,55 +42,6 @@ const SobreMi = (props) => {
           <span className='tag'>{`p`}</span>
           <span className='key__tag'>{`>`}</span>
         </span>
-        <span className='span__content'>
-          <span className='key__tag'>{`<`}</span>
-          <span className='tag'>{`h3`}</span>
-          <span className='key__tag'>{`>`}</span>
-          <span className='text strong'>{`UN POQUITO MÁS SOBRE MÍ:  `}</span>
-          <span className='key__tag'>{`</`}</span>
-          <span className='tag'>{`h3`}</span>
-          <span className='key__tag'>{`>`}</span>
-        </span>
-        <span className='span__content'>
-          <span className='key__tag'>{`<`}</span>
-          <span className='tag'>{`ul`}</span>
-          <span className='key__tag'>{`>`}</span>
-        </span>
-        <span className='span__content'>
-          <span className='opacity'>{`___`}</span>
-          <span className='key__tag'>{`<`}</span>
-          <span className='tag'>{`li`}</span>
-          <span className='key__tag'>{`>`}</span>
-          <span className='text'>{`Soy una apasionada de las motos y de conocer lugares nuevos.`}</span>
-          <span className='key__tag'>{`</`}</span>
-          <span className='tag'>{`li`}</span>
-          <span className='key__tag'>{`>`}</span>
-        </span>
-        <span className='span__content'>
-          <span className='opacity'>{`___`}</span>
-          <span className='key__tag'>{`<`}</span>
-          <span className='tag'>{`li`}</span>
-          <span className='key__tag'>{`>`}</span>
-          <span className='text'>{`Me gusta programar y crear cosas nuevas`}</span>
-          <span className='key__tag'>{`</`}</span>
-          <span className='tag'>{`li`}</span>
-          <span className='key__tag'>{`>`}</span>
-        </span>
-        <span className='span__content'>
-          <span className='opacity'>{`___`}</span>
-          <span className='key__tag'>{`<`}</span>
-          <span className='tag'>{`li`}</span>
-          <span className='key__tag'>{`>`}</span>
-          <span className='text'>{`Me encanta seguir aprendiendo para poder seguir creciendo día tras día y conseguir superarme un poquito más`}</span>
-          <span className='key__tag'>{`</`}</span>
-          <span className='tag'>{`li`}</span>
-          <span className='key__tag'>{`>`}</span>
-        </span>
-        <span className='span__content'>
-          <span className='key__tag'>{`</`}</span>
-          <span className='tag'>{`ul`}</span>
-          <span className='key__tag'>{`>`}</span>
-        </span>
       </div>
       <span className='write'>&#160;</span>
     </section>
