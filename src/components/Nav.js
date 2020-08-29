@@ -6,6 +6,7 @@ import Proyectos from '../images/repository.png';
 import Habilidades from '../images/engineering.png';
 import SobreMi from '../images/person_female.png';
 import '../stylesheets/nav.scss';
+import ConstructorTag from './ConstructorTag';
 
 const Nav = (props) => {
   return (
@@ -44,24 +45,18 @@ const Nav = (props) => {
           </Link>
           <span className='content__list'>
             <li>
+              <Link to='/'>
+                <ConstructorTag tag='Proyectos' />
+              </Link>
+            </li>
+            <li>
+              <Link to='/'>
+                <ConstructorTag tag='Skills' />
+              </Link>
+            </li>
+            <li>
               <Link to='/about'>
-                <span className='key__tag'>{`<`}</span>
-                <span className='tag'>{`Sobre-Mi`}</span>
-                <span className='key__tag'>{`/>`}</span>
-              </Link>
-            </li>
-            <li>
-              <Link to='/'>
-                <span className='key__tag'>{`<`}</span>
-                <span className='tag'>{`Habilidades`}</span>
-                <span className='key__tag'>{`/>`}</span>
-              </Link>
-            </li>
-            <li>
-              <Link to='/'>
-                <span className='key__tag'>{`<`}</span>
-                <span className='tag'>{`Proyectos`}</span>
-                <span className='key__tag'>{`/>`}</span>
+                <ConstructorTag tag='Sobre-mi' />
               </Link>
             </li>
           </span>
