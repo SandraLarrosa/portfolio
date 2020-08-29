@@ -5,23 +5,23 @@
   align-items: flex-start;
   font-size: 20px;
   margin: 40px;
-  max-width: 1200px;
+  max-width: 800px;
 
   &__title {
-    width: 1200px;
+    width: 800px;
     display: flex;
     align-items: flex-start;
     align-self: center;
 
     &__title {
-      font-size: 40px;
+      width: 400px;
+      font-size: 30px;
       font-weight: normal;
     }
 
     &__img {
-      width: 260px;
-      height: 260px;
-      margin-left: 40%;
+      width: 200px;
+      margin-left: 30%;
 
       & img {
         width: 100%;
@@ -38,4 +38,10 @@
 
 .strong {
   font-weight: bold;
+}
+
+.content__text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

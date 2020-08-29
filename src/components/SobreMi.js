@@ -1,20 +1,26 @@
 import React from 'react';
 import miFoto from '../images/mi-foto.png';
 import '../stylesheets/sobreMi.scss';
+import ConstructorTag from './ConstructorTag';
+import ConstructorCloseTag from './ConstructorCloseTag';
+import { Typewriter } from 'react-typewriting-effect';
 
-const SobreMi = (props) => {
+const SobreMi = () => {
   return (
     <section className='sobreMi'>
       <div className='sobreMi__title'>
         <h2 className='sobreMi__title__title'>
-          <span className='span__content'>
-            <span className='key__tag'>{`<`}</span>
-            <span className='tag'>{`h1`}</span>
-            <span className='key__tag'>{`>`}</span>
-            <span className='text'>{`Sobre Mí`}</span>
-            <span className='key__tag'>{`</`}</span>
-            <span className='tag'>{`h1`}</span>
-            <span className='key__tag'>{`>`}</span>
+          <span className='content__text'>
+            <ConstructorTag tag='h1' />
+            <Typewriter
+              string='Sobre Mí'
+              delay={100}
+              stopBlinkinOnComplete
+              cursor='|'
+              cursorClassName='cursor'
+              className='text'
+            />
+            <ConstructorCloseTag tag='h1' />
           </span>
         </h2>
         <div className='sobreMi__title__img'>
