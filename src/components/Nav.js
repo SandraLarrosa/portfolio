@@ -45,7 +45,7 @@ const Nav = () => {
           </Link>
           <span className='content__list'>
             <li>
-              <Link to='/'>
+              <Link to='/projects'>
                 <ConstructorTag tag='Proyectos' />
               </Link>
             </li>

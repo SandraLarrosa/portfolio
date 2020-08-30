@@ -1,0 +1,70 @@
+.legend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+  &__title {
+    color: #ce2661;
+    font-size: 12px;
+
+    @media all and (min-width: 1200px){
+        font-size: 16px;
+    }
+  }
+
+  &__text {
+    font-size: 10px;
+    margin-top: 5px;
+    display: none;
+
+    @media all and (min-width: 768px) {
+      display: block;
+    }
+
+    @media all and (min-width: 1200px){
+        font-size: 14px;
+    }
+  }
+
+  &__tools {
+    font-size: 10px;
+    margin-top: 5px;
+    display: none;
+
+    @media all and (min-width: 768px) {
+      display: block;
+    }
+    @media all and (min-width: 1200px){
+        font-size: 14px;
+    }
+  }
+}
+
+.content__icon {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.content__icon--image {
+  margin: 10px;
+  width: 25px;
+  cursor: pointer;
+
+  @media all and (min-width: 1200px){
+      width: 35px;
+  }
+
+  & a {
+    padding-bottom: 8px;
+
+    @media all and (min-width: 1200px){
+        padding-bottom: 16px;
+    }
+  }
+
+  & img {
+    width: 100%;
+  }
+}

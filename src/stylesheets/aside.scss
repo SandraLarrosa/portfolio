@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 1200px) {
       flex-direction: column;
     }
 
@@ -18,7 +18,7 @@
     }
   }
 
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1200px) {
     width: 100px;
     height: 100vh;
   }
