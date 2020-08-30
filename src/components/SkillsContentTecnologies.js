@@ -10,6 +10,7 @@ import gulp from '../images/logos/gulp.png';
 import JavaScript from '../images/logos/javascript.png';
 import react from '../images/logos/react.png';
 import sass from '../images/logos/sass.png';
+import bootstrap from '../images/logos/bootstrap.png';
 import SkillsIcon from './SkillsIcon';
 
 const SkillsContentTecnologies = (props) => {
@@ -26,6 +27,7 @@ const SkillsContentTecnologies = (props) => {
         </span>
         <SkillsList name='HTML 5' />
         <SkillsList name='CSS || SASS' />
+        <SkillsList name='Boostrap' />
         <SkillsList name='JavaScript ES6' />
         <SkillsList name='React' />
         <SkillsList name='Gulp' />
@@ -38,6 +40,7 @@ const SkillsContentTecnologies = (props) => {
         <SkillsIcon img={html} altImg='HTML' />
         <SkillsIcon img={css} altImg='CSS' />
         <SkillsIcon img={sass} altImg='Sass' />
+        <SkillsIcon img={bootstrap} altImg='Bootstrap' />
         <SkillsIcon img={JavaScript} altImg='JavaScript' />
         <SkillsIcon img={react} altImg='React' />
         <SkillsIcon img={gulp} altImg='Gulp' />
