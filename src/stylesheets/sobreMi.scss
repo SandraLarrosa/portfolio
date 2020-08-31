@@ -14,22 +14,29 @@
   @media all and (min-width: 1200px) {
     max-width: 800px;
   }
-  
+
   &__img {
     width: 150px;
     align-self: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
 
     @media all and (min-width: 768px) {
       width: 200px;
-      margin-top: 30px;
-      margin-bottom: 40px;
     }
 
     & img {
       width: 100%;
     }
+  }
+}
+.carousel__image {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 150px;
+
+  @media all and (min-width: 768px) {
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 40px;
   }
 }
 
