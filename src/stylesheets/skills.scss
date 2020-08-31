@@ -54,16 +54,16 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  }
 
-  & .logosSkills {
-    width: 30px;
-    padding: 3px;
-    animation: rotate-in-2-cw 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
-    @media all and (min-width: 768px) {
-      width: 35px;
-      padding: 3px;
-    }
+.logosSkills {
+  width: 30px;
+  padding: 3px;
+  animation: rotate-in-2-cw 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+  @media all and (min-width: 768px) {
+    width: 35px;
   }
 }
 
