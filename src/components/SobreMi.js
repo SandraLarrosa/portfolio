@@ -2,7 +2,7 @@ import React from 'react';
 import miFoto1 from '../images/myphotos/myphoto1.jpg';
 import miFoto2 from '../images/myphotos/myphoto2.jpg';
 import miFoto3 from '../images/myphotos/myphoto3.JPG';
-import miFoto4 from '../images/myphotos/myphoto4.jpg';
+import miFoto4 from '../images/myphotos/myphoto4.JPG';
 import miFoto5 from '../images/myphotos/myphoto5.JPG';
 import miFoto6 from '../images/myphotos/myphoto6.jpg';
 import miFoto7 from '../images/myphotos/myphoto7.JPG';
