@@ -54,6 +54,7 @@
   & .logosSkills {
     width: 30px;
     padding: 3px;
+    animation: rotate-in-2-cw 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
     @media all and (min-width: 768px) {
       width: 35px;
@@ -61,3 +62,16 @@
     }
   }
 }
+
+@keyframes rotate-in-2-cw {
+  0% {
+    transform: rotate(-45deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+

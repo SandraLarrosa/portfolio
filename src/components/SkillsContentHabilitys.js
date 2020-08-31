@@ -14,7 +14,7 @@ import { Typewriter } from 'react-typewriting-effect';
 
 const SkillsContentHabilitys = () => {
   return (
-    <div className='skills__content'>
+    <div className='skills__content habilitys'>
       <div className='skills__list'>
         <span className='span__content strong'>
           <ConstructorTag tag='h3' />

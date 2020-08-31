@@ -34,11 +34,23 @@
   width: 150px;
   box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.247);
   border-radius: 10px;
+  animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
   @media all and (min-width: 768px) {
     width: 200px;
     margin-top: 30px;
     margin-bottom: 40px;
+  }
+}
+
+@keyframes scale-in-hor-center {
+  0% {
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
   }
 }
 
@@ -66,4 +78,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.myHistory {
+  animation: fade-in 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
