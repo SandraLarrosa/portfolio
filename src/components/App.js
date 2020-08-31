@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Route, Switch } from 'react-router-dom';
 import '../stylesheets/App.scss';
 import Home from './Home';
@@ -9,9 +9,15 @@ import Skills from './Skills';
 import Projects from './Projects';
 
 function App() {
+  const [classIcons, setClassIcons] = useState('hidden')
+
+  const showIcons = () => {
+    setClassIcons('show')
+  }
+
   return (
     <div className='App'>
-      <Nav />
+      <Nav setShowIcons={showIcons} classIcons={classIcons}/>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/projects' component={Projects} />
