@@ -9,15 +9,10 @@ import Skills from './Skills';
 import Projects from './Projects';
 
 function App() {
-  const [classIcons, setClassIcons] = useState('hidden')
-
-  const showIcons = () => {
-    setClassIcons('show')
-  }
 
   return (
     <div className='App'>
-      <Nav setShowIcons={showIcons} classIcons={classIcons}/>
+      <Nav/>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/projects' component={Projects} />
