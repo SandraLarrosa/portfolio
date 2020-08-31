@@ -14,30 +14,30 @@ const Nav = () => {
         <ul className='nav__content__list--Mobile'>
           <li>
             <Link to='/'>
-              <div className='content__icon'>
-                <img src={Home} alt='Home'></img>
-              </div>
+              <img className='content__icon' src={Home} alt='Home'></img>
             </Link>
           </li>
           <li>
             <Link to='/projects'>
-              <div className='content__icon'>
-                <img src={Proyectos} alt='Proyectos'></img>
-              </div>
+              <img
+                className='content__icon'
+                src={Proyectos}
+                alt='Proyectos'
+              ></img>
             </Link>
           </li>
           <li>
             <Link to='/skills'>
-              <div className='content__icon'>
-                <img src={Habilidades} alt='Habilidades'></img>
-              </div>
+              <img
+                className='content__icon'
+                src={Habilidades}
+                alt='Habilidades'
+              ></img>
             </Link>
           </li>
           <li>
             <Link to='/about'>
-              <div className='content__icon'>
-                <img src={SobreMi} alt='Sobre Mi'></img>
-              </div>
+              <img className='content__icon' src={SobreMi} alt='Sobre Mi'></img>
             </Link>
           </li>
         </ul>

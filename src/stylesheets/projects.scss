@@ -1,14 +1,14 @@
 .projects{
     width: 320px;
+    height: 80vh;
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    align-content: space-between;
     margin-top: 0px;
 
     @media all and (min-width: 768px){
-        width: 650px;
+        width: 700px;
     }
     
     @media all and (min-width: 1200px){
@@ -18,9 +18,15 @@
 
 .carousel {
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.26);
     animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+    @media all and (min-width: 768px){
+      width: 700px;
+      margin-top: 250px;
+  }
 }
 
 @keyframes fade-in {
