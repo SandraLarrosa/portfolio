@@ -17,6 +17,7 @@ import ConstructorTag from './ConstructorTag';
 import ConstructorCloseTag from './ConstructorCloseTag';
 import { Carousel } from 'react-responsive-carousel';
 import Title from './Title';
+import { Typewriter } from 'react-typewriting-effect';
 
 const SobreMi = () => {
   return (
@@ -76,7 +77,14 @@ const SobreMi = () => {
       <div className='sobreMi__content'>
         <span className='span__content strong'>
           <ConstructorTag tag='h3' />
-          Mi Historia:
+          <Typewriter
+            string='Mi historia: '
+            delay={100}
+            stopBlinkinOnComplete
+            cursor='|'
+            cursorClassName='cursor'
+            className='text'
+          />
           <ConstructorCloseTag tag='h3' />
         </span>
         <span className='span__content'>

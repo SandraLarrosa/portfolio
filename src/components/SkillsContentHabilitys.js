@@ -10,6 +10,7 @@ import trello from '../images/logos/trello.png';
 import npm from '../images/logos/npm.png';
 import visualStudio from '../images/logos/visual_studio.png';
 import SkillsIcon from './SkillsIcon';
+import { Typewriter } from 'react-typewriting-effect';
 
 const SkillsContentHabilitys = () => {
   return (
@@ -17,7 +18,14 @@ const SkillsContentHabilitys = () => {
       <div className='skills__list'>
         <span className='span__content strong'>
           <ConstructorTag tag='h3' />
-          Herramientas:
+          <Typewriter
+            string='Herramientas:'
+            delay={100}
+            stopBlinkinOnComplete
+            cursor='|'
+            cursorClassName='cursor'
+            className='text'
+          />
           <ConstructorCloseTag tag='h3' />
         </span>
         <span className='span__content'>

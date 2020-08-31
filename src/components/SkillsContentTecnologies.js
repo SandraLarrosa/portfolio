@@ -12,14 +12,22 @@ import react from '../images/logos/react.png';
 import sass from '../images/logos/sass.png';
 import bootstrap from '../images/logos/bootstrap.png';
 import SkillsIcon from './SkillsIcon';
+import { Typewriter } from 'react-typewriting-effect';
 
-const SkillsContentTecnologies = (props) => {
+const SkillsContentTecnologies = () => {
   return (
     <div className='skills__content'>
       <div className='skills__list'>
         <span className='span__content strong'>
           <ConstructorTag tag='h3' />
-          Tecnologías:
+          <Typewriter
+            string='Tecnologías: '
+            delay={100}
+            stopBlinkinOnComplete
+            cursor='|'
+            cursorClassName='cursor'
+            className='text'
+          />
           <ConstructorCloseTag tag='h3' />
         </span>
         <span className='span__content'>
