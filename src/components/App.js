@@ -12,14 +12,12 @@ function App() {
   return (
     <div className='App'>
       <Nav />
-      <main className='main'>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/projects' component={Projects} />
           <Route exact path='/skills' component={Skills} />
           <Route exact path='/about' component={SobreMi} />
         </Switch>
-      </main>
       <Aside />
     </div>
   );

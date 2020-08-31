@@ -38,12 +38,11 @@ const Nav = () => {
           </li>
         </ul>
         <ul className='nav__content__list'>
-          <Link to='/'>
-            <div className='content__home'>
-              <img src={Home} alt='Home'></img>
-            </div>
-          </Link>
-          <span className='content__list'>
+            <li>
+              <Link to='/'>
+                <ConstructorTag tag='Home' />
+              </Link>
+            </li>
             <li>
               <Link to='/projects'>
                 <ConstructorTag tag='Proyectos' />
@@ -59,7 +58,6 @@ const Nav = () => {
                 <ConstructorTag tag='Sobre-mí' />
               </Link>
             </li>
-          </span>
         </ul>
       </nav>
     </>

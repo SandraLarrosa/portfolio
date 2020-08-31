@@ -6,13 +6,15 @@ import SkillsContentHabilitys from './SkillsContentHabilitys';
 
 const skills = () => {
   return (
-    <section className='skills'>
-      <Title name='Skills' />
-      <div className='skillsList'>
-        <SkillsContentTecnologies />
-        <SkillsContentHabilitys />
-      </div>
-    </section>
+    <>
+      <section className='skills'>
+        <Title name='Skills' />
+        <div className='skillsList'>
+          <SkillsContentTecnologies />
+          <SkillsContentHabilitys />
+        </div>
+      </section>
+    </>
   );
 };
 
