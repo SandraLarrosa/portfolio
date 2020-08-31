@@ -53,12 +53,13 @@
 .skills__logos {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 20px;
   }
 
 
 .logosSkills {
-  width: 30px;
+  width: 25px;
   padding: 3px;
   animation: rotate-in-2-cw 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
