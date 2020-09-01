@@ -1,6 +1,6 @@
 .projects{
     width: 320px;
-    height: 75vh;
+
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -25,8 +25,13 @@
 
     @media all and (min-width: 768px){
       width: 700px;
-      margin-top: 250px;
+      margin-top: 150px;
   }
+
+  @media all and (min-width: 1024px){
+    width: 700px;
+    margin-top: 50px;
+}
 }
 
 @keyframes fade-in {

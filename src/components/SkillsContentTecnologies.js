@@ -2,7 +2,6 @@ import React from 'react';
 import ConstructorTag from './ConstructorTag';
 import ConstructorCloseTag from './ConstructorCloseTag';
 import SkillsList from './SkillsList';
-import SkillsLogos from './SkillsLogos';
 import html from '../images/logos/html_5.png';
 import css from '../images/logos/css3.png';
 import git from '../images/logos/git.png';

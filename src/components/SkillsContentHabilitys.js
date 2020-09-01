@@ -2,7 +2,6 @@ import React from 'react';
 import ConstructorTag from './ConstructorTag';
 import ConstructorCloseTag from './ConstructorCloseTag';
 import SkillsList from './SkillsList';
-import SkillsLogos from './SkillsLogos';
 import figma from '../images/logos/figma.png';
 import github from '../images/logos/github.png';
 import slack from '../images/logos/slack.png';
