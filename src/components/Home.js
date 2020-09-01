@@ -1,47 +1,42 @@
 import React from 'react';
-import { Typewriter } from 'react-typewriting-effect';
 import 'react-typewriting-effect/dist/index.css';
 import '../stylesheets/home.scss';
 import ConstructorTag from './ConstructorTag';
 import ConstructorCloseTag from './ConstructorCloseTag';
+import TypeIt from 'typeit-react';
 
 const Home = () => {
-  const helloWorld = '¡Hola Mundo!';
-  const myName = ' Soy Alexandra López,  Desarrolladora Front End ';
-
   return (
     <section className='home'>
       <ConstructorTag tag='html' />
       <ConstructorTag tag='body' indent='__' />
-      <span className='content__text'>
-        <ConstructorTag tag='h1' indent='____'>
-          <span className='text'>
-            <Typewriter
-              string={helloWorld}
-              delay={100}
-              stopBlinkinOnComplete
-              cursor='|'
-              cursorClassName='cursor'
-              className='text'
+      <ConstructorTag tag='h1' indent='____'>
+        <span className='content__text'>
+          <span className='text textHome'>
+            <TypeIt
+              getBeforeInit={(instance) => {
+                instance
+                  .type('¡Hello World!')
+                  .pause(750)
+                  .delete(12)
+                  .pause(500)
+                  .type('Hola Mundo!')
+                  .pause(2000)
+                  .break({ delay: 500 })
+                  .type('Soy Alexandra López, ')
+                  .break({ delay: 500 })
+                  .type('Futura programadora')
+                  .pause(750)
+                  .delete(19)
+                  .pause(500)
+                  .type('Desarrolladora Front End.');
+                return instance;
+              }}
             />
           </span>
-        </ConstructorTag>
-        <ConstructorCloseTag tag='h1' />
-      </span>
-      <span className='content__text'>
-        <ConstructorTag tag='h2' indent='____' />
-        <span className='text'>
-          <Typewriter
-            string={myName}
-            delay={100}
-            stopBlinkinOnComplete
-            cursor='|'
-            cursorClassName='cursor'
-            className='text'
-          />
         </span>
-      </span>
-      <ConstructorCloseTag indent='____' tag='h2' /> 
+      </ConstructorTag>
+      <ConstructorCloseTag indent='____' tag='h1' />
       <ConstructorCloseTag indent='__' tag='body' />
       <ConstructorCloseTag tag='html' />
     </section>

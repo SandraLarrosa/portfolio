@@ -12,6 +12,7 @@ import SkillsIcon from './SkillsIcon';
 import { Typewriter } from 'react-typewriting-effect';
 
 const SkillsContentHabilitys = () => {
+  const timeTypeWritter = 100;
   return (
     <div className='skills__content habilitys'>
       <div className='skills__list'>
@@ -19,7 +20,7 @@ const SkillsContentHabilitys = () => {
           <ConstructorTag tag='h3' />
           <Typewriter
             string='Herramientas:'
-            delay={100}
+            delay={timeTypeWritter}
             stopBlinkinOnComplete
             cursor='|'
             cursorClassName='cursor'

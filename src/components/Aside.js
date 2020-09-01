@@ -5,18 +5,18 @@ import linkedin from '../images/linkedin.png';
 import twitter from '../images/twitter.png';
 import '../stylesheets/aside.scss';
 
-const Aside = (props) => {
+const Aside = () => {
   return (
     <>
       <nav className='aside__nav'>
         <ul className='aside__nav--list'>
           <li>
-            <a href='mailto: sandra.larrosa88@gmail.com' target='_blank'>
+            <a href='mailto: sandra.larrosa88@gmail.com' target='_blank' rel="noopener noreferrer">
               <img className='iconRRSS' src={mail} alt='icon__email'></img>
             </a>
           </li>
           <li>
-            <a href='https://github.com/SandraLarrosa' target='_blank'>
+            <a href='https://github.com/SandraLarrosa' target='_blank' rel="noopener noreferrer">
               <img className='iconRRSS' src={github} alt='icon__github'></img>
             </a>
           </li>
@@ -24,6 +24,7 @@ const Aside = (props) => {
             <a
               href='https://www.linkedin.com/in/alexandralopezlarrosa/'
               target='_blank'
+              rel="noopener noreferrer"
             >
               <img
                 className='iconRRSS'
@@ -33,7 +34,7 @@ const Aside = (props) => {
             </a>
           </li>
           <li>
-            <a href='https://twitter.com/AlexandraLopez' target='_blank'>
+            <a href='https://twitter.com/AlexandraLopez' target='_blank' rel="noopener noreferrer">
               <img className='iconRRSS' src={twitter} alt='icon__twitter'></img>
             </a>
           </li>
