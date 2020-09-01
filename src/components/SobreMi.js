@@ -13,10 +13,10 @@ import miFoto11 from '../images/myphotos/myphoto11.JPG';
 import miFoto12 from '../images/myphotos/myphoto12.jpg';
 import miFoto13 from '../images/myphotos/myphoto13.jpg';
 import '../stylesheets/sobreMi.scss';
-import ConstructorTag from './ConstructorTag';
-import ConstructorCloseTag from './ConstructorCloseTag';
+import ConstructorTag from './tags/ConstructorTag';
+import ConstructorCloseTag from './tags/ConstructorCloseTag';
 import { Carousel } from 'react-responsive-carousel';
-import Title from './Title';
+import Title from './tags/Title';
 import { Typewriter } from 'react-typewriting-effect';
 
 const SobreMi = () => {

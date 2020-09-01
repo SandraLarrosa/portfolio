@@ -1,17 +1,17 @@
 import React from 'react';
-import Title from './Title';
+import Title from '../tags/Title';
 import { Carousel } from 'react-responsive-carousel';
 //Styles
-import '../stylesheets/projects.scss';
+import '../../stylesheets/projects.scss';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 //Images
-import rickandmorty from '../images/imagesProjects/rickandmorty1.png';
-import favoritesShows from '../images/imagesProjects/favoritesShows1.jpg';
-import griffindcode from '../images/imagesProjects/griffindcode.png';
-import theATeam from '../images/imagesProjects/theATeam.jpg';
-import simpsonsquote from '../images/imagesProjects/simpsonsquote.png';
-import villanasReactcionarias from '../images/imagesProjects/villanas-reactcionarias.png';
-import emotionsGifs from '../images/imagesProjects/emotions-gifs.png';
+import rickandmorty from '../../images/imagesProjects/rickandmorty1.png';
+import favoritesShows from '../../images/imagesProjects/favoritesShows1.jpg';
+import griffindcode from '../../images/imagesProjects/griffindcode.png';
+import theATeam from '../../images/imagesProjects/theATeam.jpg';
+import simpsonsquote from '../../images/imagesProjects/simpsonsquote.png';
+import villanasReactcionarias from '../../images/imagesProjects/villanas-reactcionarias.png';
+import emotionsGifs from '../../images/imagesProjects/emotions-gifs.png';
 import ProjectsLegend from './ProjectsLegend';
 
 const Projects = () => {

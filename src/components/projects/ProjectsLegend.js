@@ -1,10 +1,10 @@
 import React from 'react';
 //Styles
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import '../stylesheets/projectsLegend.scss';
+import '../../stylesheets/projectsLegend.scss';
 //Images
-import gitIcon from '../images/imagesProjects/github.png';
-import webIcon from '../images/imagesProjects/website.png';
+import gitIcon from '../../images/imagesProjects/github.png';
+import webIcon from '../../images/imagesProjects/website.png';
 
 const ProjectsLegend = ({ image, title, text, tools, github, web }) => {
   return (

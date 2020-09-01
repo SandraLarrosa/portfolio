@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ConstructorTag from '../ConstructorTag';
+import ConstructorTag from '../tags/ConstructorTag';
 //Styles
 import '../../stylesheets/nav.scss';
 //Images

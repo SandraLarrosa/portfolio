@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from './Title';
+import Title from './tags/Title';
 import '../stylesheets/skills.scss';
 import SkillsContentTecnologies from './SkillsContentTecnologies';
 import SkillsContentHabilitys from './SkillsContentHabilitys';

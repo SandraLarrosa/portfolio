@@ -5,7 +5,7 @@ import Nav from './menu/Nav';
 import Aside from './menu/Aside';
 import SobreMi from './SobreMi';
 import Skills from './Skills';
-import Projects from './Projects';
+import Projects from './projects/Projects';
 //Styles
 import '../stylesheets/App.scss';
 

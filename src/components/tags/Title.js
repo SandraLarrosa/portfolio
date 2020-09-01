@@ -2,8 +2,9 @@ import React from 'react';
 import ConstructorTag from './ConstructorTag';
 import ConstructorCloseTag from './ConstructorCloseTag';
 import { Typewriter } from 'react-typewriting-effect';
-import '../stylesheets/title.scss';
-import '../stylesheets/home.scss';
+//Styles
+import '../../stylesheets/title.scss';
+import '../../stylesheets/home.scss';
 
 
 const Title = ({ name }) => {
