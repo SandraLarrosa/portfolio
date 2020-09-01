@@ -1,12 +1,13 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import '../stylesheets/App.scss';
 import Home from './Home';
-import Nav from './Nav';
-import Aside from './Aside';
+import Nav from './menu/Nav';
+import Aside from './menu/Aside';
 import SobreMi from './SobreMi';
 import Skills from './Skills';
 import Projects from './Projects';
+//Styles
+import '../stylesheets/App.scss';
 
 function App() {
 

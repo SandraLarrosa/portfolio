@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Home from '../images/home.png';
-import Proyectos from '../images/repository.png';
-import Habilidades from '../images/engineering.png';
-import SobreMi from '../images/person_female.png';
-import '../stylesheets/nav.scss';
-import ConstructorTag from './ConstructorTag';
+import ConstructorTag from '../ConstructorTag';
+//Styles
+import '../../stylesheets/nav.scss';
+//Images
+import Home from '../../images/home.png';
+import Proyectos from '../../images/repository.png';
+import Habilidades from '../../images/engineering.png';
+import SobreMi from '../../images/person_female.png';
+
+
 
 const Nav = () => {
   return (

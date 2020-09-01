@@ -1,9 +1,12 @@
 import React from 'react';
-import mail from '../images/mail.png';
-import github from '../images/github.png';
-import linkedin from '../images/linkedin.png';
-import twitter from '../images/twitter.png';
-import '../stylesheets/aside.scss';
+//Styles
+import '../../stylesheets/aside.scss';
+//Images
+import mail from '../../images/mail.png';
+import github from '../../images/github.png';
+import linkedin from '../../images/linkedin.png';
+import twitter from '../../images/twitter.png';
+
 
 const Aside = () => {
   return (
