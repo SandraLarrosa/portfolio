@@ -32,6 +32,7 @@ const SobreMi = () => {
           autoPlay={true}
           interval={2500}
           infiniteLoop={true}
+          axis="vertical"
         >
           <div className='sobreMi__img'>
             <img src={miFoto1} alt='Foto Alexandra López'></img>
