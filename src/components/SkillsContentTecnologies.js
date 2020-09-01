@@ -44,16 +44,32 @@ const SkillsContentTecnologies = () => {
           <ConstructorCloseTag tag='ul' />
         </span>
       </div>
-      <SkillsLogos>
-        <SkillsIcon img={html} altImg='HTML' />
-        <SkillsIcon img={css} altImg='CSS' />
-        <SkillsIcon img={sass} altImg='Sass' />
-        <SkillsIcon img={bootstrap} altImg='Bootstrap' />
-        <SkillsIcon img={JavaScript} altImg='JavaScript' />
-        <SkillsIcon img={react} altImg='React' />
-        <SkillsIcon img={gulp} altImg='Gulp' />
-        <SkillsIcon img={git} altImg='Git' />
-      </SkillsLogos>
+      <ul className='skills__logos'>
+        <li>
+          <SkillsIcon img={html} altImg='HTML' />
+        </li>
+        <li>
+          <SkillsIcon img={css} altImg='CSS' />
+        </li>
+        <li>
+          <SkillsIcon img={sass} altImg='Sass' />
+        </li>
+        <li>
+          <SkillsIcon img={bootstrap} altImg='Bootstrap' />
+        </li>
+        <li>
+          <SkillsIcon img={JavaScript} altImg='JavaScript' />
+        </li>
+        <li>
+          <SkillsIcon img={react} altImg='React' />
+        </li>
+        <li>
+          <SkillsIcon img={gulp} altImg='Gulp' />
+        </li>
+        <li>
+          <SkillsIcon img={git} altImg='Git' />
+        </li>
+      </ul>
     </div>
   );
 };

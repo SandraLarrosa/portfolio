@@ -42,14 +42,26 @@ const SkillsContentHabilitys = () => {
           <ConstructorCloseTag tag='ul' />
         </span>
       </div>
-      <SkillsLogos>
-        <SkillsIcon img={github} altImg='GitHub' />
-        <SkillsIcon img={visualStudio} altImg='Visual Studio' />
-        <SkillsIcon img={npm} altImg='npm' />
-        <SkillsIcon img={trello} altImg='Trello' />
-        <SkillsIcon img={slack} altImg='Slack' />
-        <SkillsIcon img={figma} altImg='Figma' />
-      </SkillsLogos>
+      <ul className='skills__logos'>
+        <li>
+          <SkillsIcon img={github} altImg='GitHub' />
+        </li>
+        <li>
+          <SkillsIcon img={visualStudio} altImg='Visual Studio' />
+        </li>
+        <li>
+          <SkillsIcon img={npm} altImg='npm' />
+        </li>
+        <li>
+          <SkillsIcon img={trello} altImg='Trello' />
+        </li>
+        <li>
+          <SkillsIcon img={slack} altImg='Slack' />
+        </li>
+        <li>
+          <SkillsIcon img={figma} altImg='Figma' />
+        </li>
+      </ul>
     </div>
   );
 };

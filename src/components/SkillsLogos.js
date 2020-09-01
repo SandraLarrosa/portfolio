@@ -1,10 +1,11 @@
 import React from 'react';
 
-
 const SkillsLogos = (props) => {
   return (
-    <div className='skills__logos'>
-      {props.children}
+    <div >
+      <ul className='skills__logos'>
+        <li>{props.children}</li>
+      </ul>
     </div>
   );
 };
