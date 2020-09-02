@@ -1,15 +1,17 @@
 import React from 'react';
-import ConstructorTag from './tags/ConstructorTag';
-import ConstructorCloseTag from './tags/ConstructorCloseTag';
-import SkillsList from './SkillsList';
-import figma from '../images/logos/figma.png';
-import github from '../images/logos/github.png';
-import slack from '../images/logos/slack.png';
-import trello from '../images/logos/trello.png';
-import npm from '../images/logos/npm.png';
-import visualStudio from '../images/logos/visual_studio.png';
-import SkillsIcon from './SkillsIcon';
 import { Typewriter } from 'react-typewriting-effect';
+import ConstructorTag from '../tags/ConstructorTag';
+import ConstructorCloseTag from '../tags/ConstructorCloseTag';
+import SkillsList from './SkillsList';
+import SkillsIcon from './SkillsIcon';
+//Logos
+import figma from '../../images/logos/figma.png';
+import github from '../../images/logos/github.png';
+import slack from '../../images/logos/slack.png';
+import trello from '../../images/logos/trello.png';
+import npm from '../../images/logos/npm.png';
+import visualStudio from '../../images/logos/visual_studio.png';
+
 
 const SkillsContentHabilitys = () => {
   const timeTypeWritter = 100;

@@ -1,6 +1,6 @@
 import React from 'react';
-import ConstructorTag from './tags/ConstructorTag';
-import ConstructorCloseTag from './tags/ConstructorCloseTag';
+import ConstructorTag from '../tags/ConstructorTag';
+import ConstructorCloseTag from '../tags/ConstructorCloseTag';
 
 
 const SkillsList = ({ name }) => {
