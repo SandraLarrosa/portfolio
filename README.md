@@ -6,7 +6,7 @@ Aquí tenéis mi portfolio, para poder conocerme un poquito más y poder ver tod
 Espero que os guste.
 
 
-![Imagen de página principal del portfolio](https://media.giphy.com/media/LSo2I2jqzPXUcgeYAD/giphy.gif)
+![Imagen de página principal del portfolio](https://github.com/SandraLarrosa/portfolio/blob/master/public/img/portfolio.png)
 
 ### 💻Tecnologías utilizadas 
 
