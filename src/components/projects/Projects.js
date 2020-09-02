@@ -31,7 +31,7 @@ const Projects = () => {
               image={rickandmorty}
               title='PICKLE RICK FINDER'
               text='Buscador de personajes de la serie de Rick y Morty'
-              tools='React || JavaScript || SCSS'
+              tools='REACT || JAVASCRIPT || SCSS'
               github='https://github.com/SandraLarrosa/Pickle-Rick-Finder'
               web='https://sandralarrosa.github.io/Pickle-Rick-Finder'
             />
@@ -39,7 +39,7 @@ const Projects = () => {
               image={favoritesShows}
               title='FAVORITES SHOWS'
               text='Buscador de series con un apartado para poder añadir tus series favoritas'
-              tools='JavaScript || SCSS || HTML5'
+              tools='JAVASCRIPT || SCSS || HTML5'
               github='https://github.com/SandraLarrosa/Favorites-Shows'
               web='https://sandralarrosa.github.io/Favorites-Shows'
             />
@@ -47,7 +47,7 @@ const Projects = () => {
               image={griffindcode}
               title='GRIFFINDCODE'
               text='Generador de tarjetas profesionales dinámicas'
-              tools='JavaScript || SCSS || HTML5'
+              tools='JAVASCRIPT || SCSS || HTML5'
               github='https://github.com/SandraLarrosa/Codegriffin'
               web='https://sandralarrosa.github.io/Codegriffin'
             />
@@ -63,7 +63,7 @@ const Projects = () => {
               image={simpsonsquote}
               title='SIMPSONS QUOTE'
               text='Aplicación que genera citas aleatorias de los simpsons'
-              tools='React || JavaScript || SCSS'
+              tools='REACT || JAVASCRIPT || SCSS'
               github='https://github.com/SandraLarrosa/Simpsons-Quote'
               web='https://sandralarrosa.github.io/Simpsons-Quote'
             />
@@ -71,7 +71,7 @@ const Projects = () => {
               image={villanasReactcionarias}
               title='LAS VILLANAS REACTCIONARIAS'
               text='Generador de tarjetas profesionales con React'
-              tools='React || JavaScript || SCSS'
+              tools='REACT || JAVASCRIPT|| SCSS'
               github='https://github.com/SandraLarrosa/Las-Villanas-Reactcionarias'
               web='https://sandralarrosa.github.io/Las-Villanas-Reactcionarias'
             />
@@ -79,7 +79,7 @@ const Projects = () => {
               image={emotionsGifs}
               title='EMOTIONS GIFS'
               text='Generador de gifs según el estado de ánimo'
-              tools='React || JavaScript || SCSS'
+              tools='REACT || JAVASCRIPT || SCSS'
               github='https://github.com/SandraLarrosa/Emotions-Gifs'
               web='https://sandralarrosa.github.io/Emotions-Gifs'
             />
