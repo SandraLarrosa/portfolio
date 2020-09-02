@@ -1,9 +1,11 @@
 import React from 'react';
-import 'react-typewriting-effect/dist/index.css';
-import '../stylesheets/home.scss';
-import ConstructorTag from './tags/ConstructorTag';
-import ConstructorCloseTag from './tags/ConstructorCloseTag';
 import TypeIt from 'typeit-react';
+import ConstructorTag from '../tags/ConstructorTag';
+import ConstructorCloseTag from '../tags/ConstructorCloseTag';
+//Styles
+import 'react-typewriting-effect/dist/index.css';
+import '../../stylesheets/home.scss';
+
 
 const Home = () => {
   return (

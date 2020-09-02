@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Home from './Home';
+import Home from './home/Home';
 import Nav from './menu/Nav';
 import Aside from './menu/Aside';
-import SobreMi from './SobreMi';
+import SobreMi from './sobreMi/SobreMi';
 import Skills from './skills/Skills';
 import Projects from './projects/Projects';
 //Styles

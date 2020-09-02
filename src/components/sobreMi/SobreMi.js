@@ -1,23 +1,25 @@
 import React from 'react';
-import miFoto1 from '../images/myphotos/myphoto1.jpg';
-import miFoto2 from '../images/myphotos/myphoto2.jpg';
-import miFoto3 from '../images/myphotos/myphoto3.JPG';
-import miFoto4 from '../images/myphotos/myphoto4.JPG';
-import miFoto5 from '../images/myphotos/myphoto5.JPG';
-import miFoto6 from '../images/myphotos/myphoto6.jpg';
-import miFoto7 from '../images/myphotos/myphoto7.JPG';
-import miFoto8 from '../images/myphotos/myphoto8.JPG';
-import miFoto9 from '../images/myphotos/myphoto9.jpg';
-import miFoto10 from '../images/myphotos/myphoto10.jpg';
-import miFoto11 from '../images/myphotos/myphoto11.JPG';
-import miFoto12 from '../images/myphotos/myphoto12.jpg';
-import miFoto13 from '../images/myphotos/myphoto13.jpg';
-import '../stylesheets/sobreMi.scss';
-import ConstructorTag from './tags/ConstructorTag';
-import ConstructorCloseTag from './tags/ConstructorCloseTag';
 import { Carousel } from 'react-responsive-carousel';
-import Title from './tags/Title';
 import { Typewriter } from 'react-typewriting-effect';
+import Title from '../tags/Title';
+import ConstructorTag from '../tags/ConstructorTag';
+import ConstructorCloseTag from '../tags/ConstructorCloseTag';
+//Styles
+import '../../stylesheets/sobreMi.scss';
+//Fotos
+import miFoto1 from '../../images/myphotos/myphoto1.jpg';
+import miFoto2 from '../../images/myphotos/myphoto2.jpg';
+import miFoto3 from '../../images/myphotos/myphoto3.JPG';
+import miFoto4 from '../../images/myphotos/myphoto4.JPG';
+import miFoto5 from '../../images/myphotos/myphoto5.JPG';
+import miFoto6 from '../../images/myphotos/myphoto6.jpg';
+import miFoto7 from '../../images/myphotos/myphoto7.JPG';
+import miFoto8 from '../../images/myphotos/myphoto8.JPG';
+import miFoto9 from '../../images/myphotos/myphoto9.jpg';
+import miFoto10 from '../../images/myphotos/myphoto10.jpg';
+import miFoto11 from '../../images/myphotos/myphoto11.JPG';
+import miFoto12 from '../../images/myphotos/myphoto12.jpg';
+import miFoto13 from '../../images/myphotos/myphoto13.jpg';
 
 const SobreMi = () => {
   return (
@@ -32,7 +34,7 @@ const SobreMi = () => {
           autoPlay={true}
           interval={2500}
           infiniteLoop={true}
-          axis="vertical"
+          axis='vertical'
         >
           <div className='sobreMi__img'>
             <img src={miFoto1} alt='Foto Alexandra López'></img>
