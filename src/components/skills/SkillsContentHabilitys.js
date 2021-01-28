@@ -11,7 +11,7 @@ import slack from '../../images/logos/slack.png';
 import trello from '../../images/logos/trello.png';
 import npm from '../../images/logos/npm.png';
 import visualStudio from '../../images/logos/visual_studio.png';
-
+import gulp from '../../images/logos/gulp.png';
 
 const SkillsContentHabilitys = () => {
   const timeTypeWritter = 100;
@@ -36,6 +36,7 @@ const SkillsContentHabilitys = () => {
         <SkillsList name='GitHub' />
         <SkillsList name='Visual Studio Code' />
         <SkillsList name='Npm' />
+        <SkillsList name='Gulp' />
         <SkillsList name='Trello' />
         <SkillsList name='Slack' />
         <SkillsList name='Figma' />
@@ -53,6 +54,9 @@ const SkillsContentHabilitys = () => {
         </li>
         <li>
           <SkillsIcon img={npm} altImg='npm' />
+        </li>
+        <li>
+          <SkillsIcon img={gulp} altImg='Gulp' />
         </li>
         <li>
           <SkillsIcon img={trello} altImg='Trello' />

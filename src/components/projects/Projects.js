@@ -5,6 +5,10 @@ import { Carousel } from 'react-responsive-carousel';
 import '../../stylesheets/projects.scss';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 //Images
+import appBirthday from '../../images/imagesProjects/AppBirthday.png';
+import cotizadorPrestamos from '../../images/imagesProjects/cotizadorPrestamos.png';
+import bikerGirlsSpain from '../../images/imagesProjects/bikerGirlsSpain.png';
+import portfolio from '../../images/imagesProjects/portfolio.png';
 import rickandmorty from '../../images/imagesProjects/rickandmorty1.png';
 import favoritesShows from '../../images/imagesProjects/favoritesShows1.jpg';
 import griffindcode from '../../images/imagesProjects/griffindcode.png';
@@ -27,6 +31,38 @@ const Projects = () => {
             interval={2500}
             infiniteLoop={true}
           >
+            <ProjectsLegend
+              image={appBirthday}
+              title='APP BIRTHDAY'
+              text='Aplicación Movil para registrar cumpleaños'
+              tools='REACT NATIVE || JAVASCRIPT || FIREBASE'
+              github='https://github.com/SandraLarrosa/App-Birthays'
+              web='https://github.com/SandraLarrosa/App-Birthays'
+            />
+            <ProjectsLegend
+              image={cotizadorPrestamos}
+              title='App COTIZADOR DE PRÉSTAMOS'
+              text='Aplicación movil que calcular el dinero a pagar en un préstamo'
+              tools='REACT NATIVE || JAVASCRIPT'
+              github='https://github.com/SandraLarrosa/Cotizador-de-Prestamos'
+              web='https://github.com/SandraLarrosa/Cotizador-de-Prestamos'
+            />
+            <ProjectsLegend
+              image={bikerGirlsSpain}
+              title='BIKER GIRLS SPAIN'
+              text='Web del grupo motero de mujeres Biker Girl Spain (En construcción)'
+              tools='REACT || JAVASCRIPT || SCSS'
+              github='https://github.com/SandraLarrosa/Biker-Girls-Spain'
+              web='http://www.bikergirlspain.com/'
+            />
+            <ProjectsLegend
+              image={portfolio}
+              title='MI PORTFOLIO'
+              text='Mi propia web como desarrolladora Fron End'
+              tools='REACT || JAVASCRIPT || SCSS'
+              github='https://github.com/SandraLarrosa/portfolio'
+              web='http://www.alexandradev.es'
+            />
             <ProjectsLegend
               image={rickandmorty}
               title='PICKLE RICK FINDER'
